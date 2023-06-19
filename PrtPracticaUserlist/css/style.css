@@ -1,0 +1,94 @@
+.container-header{
+    display: flex;
+    background-color: rgb(95, 182, 173);
+}
+
+.container-frm{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+.frm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+fieldset{
+    border-radius: 25px;
+    background-color: rgb(103, 151, 151);
+}
+
+.frm label{
+    display: block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+.frm input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.frm button{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.frm button:hover {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    border-radius: 20px none;
+    background-color: rgb(143, 67, 82);
+}
+
+
+p{
+    color: brown;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(231, 202, 231, 0.658);
+}
+
+/* Para php */
+.container-h{
+    display: flex;
+    background-color: rgb(95, 182, 173);
+}
+
+.container-tbl{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+
+table {
+    padding: 5px;
+    border: 2px solid;
+}
+
+th{
+    border: 1px solid;
+}
+
+tr {
+    border: 1px solid;
+}
+
+td {
+    border: solid;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid;
+}

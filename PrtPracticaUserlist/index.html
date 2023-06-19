@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login Usuario</title>
+</head>
+<body>
+    <div>
+        <div>
+            <header class="container-header">
+                <div>
+                    <h1>Formulario Confirmacion de Contraseña</h1>
+                    <h2>Yamil Serafin Cruz Ruiz</h2>
+                </div>    
+            </header> 
+        </div>
+        <section class="container-frm">
+            <fieldset>
+                <form action="./php/listausuarios.php" method="post" class="frm">
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nomb" id="nomb" placeholder="Nombre Completo" required>
+                    </div>
+                    <div>
+                        <label for="usuario">Nombre Usuario: </label>
+                        <input type="text" name="nombus" id="nombus" placeholder="Nombre Usuario" required>
+                    </div>
+                    <div>
+                        <label for="usuario">Email: </label>
+                        <input type="email" name="mail" id="mail" placeholder="Correo Electronico" required>
+                    </div>
+                    <div>
+                        <label for="usuario">Edad: </label>
+                        <input type="number" name="edad" id="edad" placeholder="Edad" required pattern="[0-9]*2">
+                    </div>
+                    <div>
+                        <label for="">Contraseña: </label>
+                        <input type="password" name="pss1" id="pss1" placeholder="Contraseña" required>
+                    </div>
+                    <div>
+                        <label for="">Confirmar Contraseña: </label>
+                        <input type="password" name="pss2" id="pss2" placeholder="Confirme su Contraseña">
+                    </div>
+                    <div>
+                        <button type="submit" id="btn-enviar">Registrarse</button>
+                    </div>
+                </form>
+                <p id="msj_exit"></p>
+            </fieldset>
+        </section>
+    </div>
+    <script src="./js/tools.js"></script>
+</body>
+</html>
